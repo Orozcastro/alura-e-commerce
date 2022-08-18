@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center  ;
+    justify-content: space-between;
+    padding: 3rem 10rem;
+}
+.header div {
+    display: flex;
+    gap: 3rem;
+}
+.buscador{
+    position: relative;
+    align-items: center;
+}
+.buscador__input{
+    height: 4rem;
+    width: 40rem;
+    border: none;
+    background-color: #ced6e2;
+    border-radius: 15px;
+    padding: 0 1rem;
+    font-size: 1.6rem;
+}
+.buscador__icon{
+    position: absolute;
+    color: var(--grayligth);
+    /* background-color: #a2a2a262; */
+    right: 1rem;
+    font-size: 2rem;
+}
+.btn-login{
+    height: 4rem;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    padding: 0rem 5rem;
+    font-size: 1.6rem;
+}

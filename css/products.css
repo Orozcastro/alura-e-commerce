@@ -1,0 +1,41 @@
+.products {
+    margin: 5rem;
+}
+.products > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products__title{
+    font-size: 3.2rem;
+}
+.products__text{
+    color: var(--blue)
+}
+
+/* ************************************* */
+.productsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.product{
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+.product__img{
+    max-width: 17rem;
+}
+.product__title{
+    align-items: start;
+    /* font-size: 1.7rem; */
+}
+.product__price{
+    font-weight: bold;
+}
+.product__details{
+    font-weight: bold;
+color: var(--blue)
+}
