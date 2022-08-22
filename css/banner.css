@@ -1,7 +1,9 @@
 .banner {
     background-color: red;
-    background-image: url(../img/Banner.png) ;
-    height: 352px;
+    background-image: url(../img/Hero.jpg) ;
+    background-position: center;
+    background-size : cover;
+    height: 352px; 
     color: var(--white);
     padding: 0rem 10rem ;
     position: relative;
